@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  app:
+    container_name: serverless-queue-room-scheduler
+    image: serverless-queue-room-scheduler:latest
+    build:
+      dockerfile: docker/Dockerfile
+      context: ../
+    ports:
+      - 8080:8080
+    tty: true

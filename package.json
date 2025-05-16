@@ -1,0 +1,22 @@
+{
+  "name": "queue-room-scheduler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js -L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cron": "^4.3.0",
+    "dotenv": "^16.5.0",
+    "ioredis": "^5.6.1",
+    "luxon": "^3.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
